@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.836s</div>
+<div class="counter">29.603s</div>
 <p>duration</p>
 </div>
 </td>
@@ -76,8 +76,8 @@
 <a name="Search for a automation course"></a>
 <h3 class="failures">Search for a automation course</h3>
 <span class="code">
-<pre>cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.thanBrandonWantsToLearnAutomationAtTheAcademyChoucair(AcademyChoucairData&gt;) in file:/C:/Users/HOLA/Documents/Sourcetree/Choucair/proyecto_base/build/classes/java/test/' with pattern [^than brandon wants to learn automation at the academy Choucair$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
-Step text: than brandon wants to learn automation at the academy Choucair
+<pre>cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(AcademyChoucairData&gt;) in file:/C:/Users/HOLA/Documents/Sourcetree/Choucair/proyecto_base/build/classes/java/test/' with pattern [^he search for the course (.*) on the choucair academy platform$] is declared with 1 parameters. However, the gherkin step has 2 arguments [Recursos Automatizacion Bancolombia, Table:[[strCourse], [Metodologia Bancolombia]]]. 
+Step text: he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform
 	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:111)
 	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:66)
 	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
@@ -150,7 +150,7 @@ Step text: than brandon wants to learn automation at the academy Choucair
 </thead>
 <tr>
 <td class="failures">Search for a automation course</td>
-<td class="failures">0.836s</td>
+<td class="failures">29.603s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -158,12 +158,72 @@ Step text: than brandon wants to learn automation at the academy Choucair
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@69ca0229
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1cfc5bca
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@de324b4
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Search for a automation course:Given than brandon wants to learn automation at the academy Choucair, When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform, Then he finds the course called resources Recursos Automatizacion Bancolombia
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Search for a automation course:Given than brandon wants to learn automation at the academy Choucair, When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform, Then he finds the course called resources Recursos Automatizacion Bancolombia]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Search for a automation course:Given than brandon wants to learn automation at the academy Choucair, When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform, Then he finds the course called resources Recursos Automatizacion Bancolombia]
+<pre>[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5a2c4f8c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3b290841
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1e23e1cc
+abr. 17, 2021 7:52:13 A. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 13494
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1618663939.193][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+abr. 17, 2021 7:52:19 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {strUser=1040323517, strPassword=Choucair2021*, strCourse=Metodologia Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1040323517 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {strUser=1040323517, strPassword=Choucair2021*, strCourse=Metodologia Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1040323517 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1f6bb3c3
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@247cd003
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {strUser=1040323517, strPassword=Choucair2021*, strCourse=Metodologia Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1040323517 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button tha show us the form to login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@110ae21c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {strUser=1040323517, strPassword=Choucair2021*, strCourse=Metodologia Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1040323517 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button tha show us the form to login, Brandon enters '1040323517' into where do we write the user]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7c4bdfbe
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {strUser=1040323517, strPassword=Choucair2021*, strCourse=Metodologia Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1040323517 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button tha show us the form to login, Brandon enters '1040323517' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@57a2afba
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {strUser=1040323517, strPassword=Choucair2021*, strCourse=Metodologia Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1040323517 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button tha show us the form to login, Brandon enters '1040323517' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {strUser=1040323517, strPassword=Choucair2021*, strCourse=Metodologia Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1040323517 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button tha show us the form to login, Brandon enters '1040323517' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Example: {strUser=1040323517, strPassword=Choucair2021*, strCourse=Metodologia Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1040323517 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button tha show us the form to login, Brandon enters '1040323517' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4753eb29
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@61c395a6
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Search for a automation course:Example: {strUser=1040323517, strPassword=Choucair2021*, strCourse=Metodologia Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1040323517 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button tha show us the form to login, Brandon enters '1040323517' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform
+| strCourse |
+| Metodologia Bancolombia |, Then he finds the course called resources Recursos Automatizacion Bancolombia
+| strCourse |
+| Metodologia Bancolombia |]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Search for a automation course:Example: {strUser=1040323517, strPassword=Choucair2021*, strCourse=Metodologia Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1040323517 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button tha show us the form to login, Brandon enters '1040323517' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform
+| strCourse |
+| Metodologia Bancolombia |, Then he finds the course called resources Recursos Automatizacion Bancolombia
+| strCourse |
+| Metodologia Bancolombia |]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Search for a automation course:Example: {strUser=1040323517, strPassword=Choucair2021*, strCourse=Metodologia Bancolombia} [Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1040323517 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button tha show us the form to login, Brandon enters '1040323517' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform
+| strCourse |
+| Metodologia Bancolombia |, Then he finds the course called resources Recursos Automatizacion Bancolombia
+| strCourse |
+| Metodologia Bancolombia |]]
 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
            __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
   _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
@@ -174,8 +234,8 @@ Step text: than brandon wants to learn automation at the academy Choucair
 
 TEST FAILED WITH ERROR: Search for a automation course
 ---------------------------------------------------------------------
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Given than brandon wants to learn automation at the academy Choucair
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Arity mismatch: Step Definition 'co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.thanBrandonWantsToLearnAutomationAtTheAcademyChoucair(AcademyChoucairData&gt;) in file:/C:/Users/HOLA/Documents/Sourcetree/Choucair/proyecto_base/build/classes/java/test/' with pattern [^than brandon wants to learn automation at the academy Choucair$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform | strCourse | | Metodologia Bancolombia |
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Arity mismatch: Step Definition 'co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(AcademyChoucairData&gt;) in file:/C:/Users/HOLA/Documents/Sourcetree/Choucair/proyecto_base/build/classes/java/test/' with pattern [^he search for the course (.*) on the choucair academy platform$] is declared with 1 parameters. However, the gherkin step has 2 arguments [Recursos Automatizacion Bancolombia, Table:[[strCourse], [Metodologia Bancolombia]]]. 
 </pre>
 </span>
 </div>
@@ -187,7 +247,7 @@ TEST FAILED WITH ERROR: Search for a automation course
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.2.1</a> at 16/04/2021, 6:07:26 a. m.</p>
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 17/04/2021, 7:52:45 a. m.</p>
 </div>
 </div>
 </body>
